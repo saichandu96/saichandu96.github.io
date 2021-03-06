@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intrest Calculator</title>
+	<link rel="stylesheet" href="intrest.css">
 
+</head>
+<body>
+	<script src="intrest.js"></script>
+
+	<div id="mainPage">
+		<h1>Intrest Calculater</h1>
+		<div id="inputPage">
+			<div class="formLable"><label class="col-sm-3">Amount Taken : </label><input type="number" name="principle" id="principleAmt"></div>
+			<div class="formLable"><label>Rate : </label><input type="number" name="principle" id="principleAmt"></div>
+			<div class="formLable"><label>Date Taken : </label><input type="Date" id="fromDate"></div>
+			<div class="formLable"><label>Date Received : </label><input type="checkbox" name="" id="isPresent" style="margin-top: 11px;"><span> Present Date</span></div>
+			<div class="formLable"><input type="Date" id="toDate" style="display: none;"></div><br>
+			<div><button id="submit" type="button">Calculate</button></div>
+			<br><br>
+			<label>Interst : </label><input id="intresetEarned" disabled="disabled">
+			<label>Total Amount : </label><input id="totalAmount" disabled="disabled">
+
+		</div>
+
+
+	</div>
+
+</body>
+</html>
