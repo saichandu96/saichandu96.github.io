@@ -1,0 +1,27 @@
+#mainPage{
+	background-color: #f5f0dc;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+	border: 1px solid rgba(0, 0, 0, 0.07);
+	border-radius: 3px;
+	min-height: 80px;
+	padding: 20px;
+	float: left;
+	width: 40%;
+	margin-bottom: 24px;
+}
+#col-sm-3{
+	width: 50%;
+}
+label {
+    width:180px;
+    clear:left;
+    text-align:right;
+    padding:10px;
+    float:left;
+}
+
+input {
+    float:left;
+    margin: 10px;
+
+}
